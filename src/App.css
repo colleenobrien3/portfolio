@@ -1,0 +1,13 @@
+.cloud {
+  background-image: url("./cloudagain.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+}
+a {
+  font-size: 30px;
+  color: gray !important;
+  padding: 0;
+  margin: 0;
+}

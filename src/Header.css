@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.landing {
+  margin: 0 auto;
+  text-align: center;
+  padding: 7%;
+  padding-bottom: 0;
+  font-weight: bold;
+  color: #636261;
+  line-height: 60px;
+}
+
+#links {
+  margin-top: 5%;
+  font-size: 30px;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30%;
+  font-size: 23px;
+  height: 70px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 35%;
+}
+.box {
+  border-radius: 10px;
+  width: 60%;
+}
+.box:hover {
+  background-color: white;
+  transform: scale(1.1);
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+#name {
+  font-size: 80px;
+}
+
+#job {
+  font-size: 60px;
+}
+
+.first {
+  /* background-image: url("./cloudagain.jpg"); */
+  background-position: center;
+  background-size: cover;
+  min-height: 40vh;
+}
+
+p {
+  font-family: "Crimson Text", serif;
+}
