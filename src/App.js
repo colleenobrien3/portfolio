@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import { Route, Link, BrowserRouter } from "react-router-dom";
 import About from "./About";
 import Portfolio from "./Portfolio";
+import Home from "./Home.js";
 
 class App extends Component {
   render() {
@@ -15,13 +16,19 @@ class App extends Component {
         <div className="cloud">
           <Header />
           <BrowserRouter>
-            <Link to="/about">About</Link>
-            <Link to="/portfolio">Portfolio</Link>
+            <div className="link">
+              <Link to="/about">About</Link>
+            </div>
+            <div className="link">
+              <Link to="/portfolio">Portfolio</Link>
+            </div>
+            <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
             <Route path="/portfolio" exact component={Portfolio} />
           </BrowserRouter>
+          <Footer />
         </div>
-        <Footer />
+
         {/* <Route path="/about" component={About} /> */}
       </div>
     );

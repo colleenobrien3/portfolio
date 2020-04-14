@@ -1,15 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./Header.css";
-import "./About.css";
+import "./Home.css";
 import { Button } from "reactstrap";
 import Example from "./NavBar";
 
-function About() {
+function Home() {
   return (
     <div className="aboutPage">
       <div className="aboutBox">
-        ABOUT ME
+        WELCOME
         <p>
           Hi, my name is Colleen O'Brien. I'm a software engineer in Washington,
           D.C.
@@ -19,4 +17,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;

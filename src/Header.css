@@ -31,21 +31,19 @@
   text-align: center;
   padding: 7%;
   padding-bottom: 0;
-  font-weight: bold;
   color: #636261;
   line-height: 60px;
 }
 
 #links {
-  margin-top: 5%;
+  margin-top: 3%;
   font-size: 30px;
 }
 .flex {
   display: flex;
   justify-content: space-around;
   padding: 0 30%;
-  font-size: 23px;
-  height: 70px;
+  font-size: 28px;
 }
 
 .flex2 {
@@ -56,6 +54,7 @@
 .box {
   border-radius: 10px;
   width: 60%;
+  padding: 0 1em;
 }
 .box:hover {
   background-color: white;
@@ -69,7 +68,7 @@
 }
 
 #job {
-  font-size: 60px;
+  font-size: 45px;
 }
 
 .first {
