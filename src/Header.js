@@ -17,13 +17,17 @@ function Header() {
         <div id="links">
           <div className="flex">
             <div id="one" className="box">
-              GitHub
+              <a href="https://github.com/colleenobrien3">GitHub</a>
             </div>
             <div id="two" className="box">
-              LinkedIn
+              <a href="https://www.linkedin.com/in/colleen-o-brien3/">
+                LinkedIn
+              </a>
             </div>
             <div id="three" className="box">
-              Resume
+              <a href="https://drive.google.com/file/d/1SjchCGb4_4HSUwe8T6deXBTiH-ozrLbi/view?usp=sharing">
+                Resume
+              </a>
             </div>
           </div>
         </div>
