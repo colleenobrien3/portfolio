@@ -11,8 +11,13 @@ function Portfolio() {
   return (
     <div className="Porfolio aboutPage">
       <div className="aboutBox">
-        <p>Site under construction!</p>
-        <p>Please head to LinkedIn or GitHub linked above for projects!</p>
+        <p>PORTFOLIO</p>
+        <p>
+          GOTCHA! Also under construction! Please head to my 'featured' items on
+          LinkedIn (link above) for projects! In the meantime, please enjoy this
+          meme from iFunny.
+        </p>
+        <div id="image1" />
       </div>
     </div>
   );

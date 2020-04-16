@@ -13,3 +13,12 @@
   font-size: 30px;
   line-height: 2.1em;
 }
+
+#image {
+  background: url("./IMG_1768.PNG");
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 300px;
+  border: solid;
+}

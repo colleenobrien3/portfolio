@@ -11,9 +11,10 @@ function About() {
       <div className="aboutBox">
         ABOUT ME
         <p>
-          Hi, my name is Colleen O'Brien. I'm a software engineer in Washington,
-          D.C.
+          Page under construction. Apparently still trying to figure out who I
+          am. In the meantime, please enjoy this meme from iFunny.
         </p>
+        <div id="image" />
       </div>
     </div>
   );
