@@ -15,7 +15,7 @@ function Portfolio() {
         <p>
           GOTCHA! Also under construction! Please head to my 'featured' items on
           LinkedIn (link above) for projects! In the meantime, please enjoy this
-          meme from iFunny.
+          meme, also from iFunny.
         </p>
         <div id="image1" />
       </div>

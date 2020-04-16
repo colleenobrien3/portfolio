@@ -3,6 +3,8 @@ import logo from "./logo.svg";
 import "./Header.css";
 import { Button } from "reactstrap";
 import Example from "./NavBar";
+import { Route, Link, BrowserRouter } from "react-router-dom";
+import Home from "./Home";
 
 function Header() {
   return (

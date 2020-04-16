@@ -10,7 +10,8 @@ function Home() {
         WELCOME
         <p>
           Hi, my name is Colleen O'Brien. I'm a software engineer in Washington,
-          D.C.
+          D.C. Still building my site - proceed to 'About' and 'Portfolio' to
+          see placeholders that are arguably better than the future content.
         </p>
       </div>
     </div>
