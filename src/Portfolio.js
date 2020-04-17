@@ -6,6 +6,10 @@ import "./Main.css";
 import About from "./About";
 import "./Portfolio.css";
 import "./About.css";
+import Card from "./Card";
+import CardExample from "./Card";
+import MyCard from "./MyCard";
+import i from "./IMG_2152.JPG";
 
 function Portfolio() {
   return (
@@ -17,6 +21,11 @@ function Portfolio() {
           LinkedIn (link above) for projects! In the meantime, please enjoy this
           meme, also from iFunny.
         </p>
+        <div className="cardContainer">
+          <MyCard title="Hello" description="f this" img={i} />
+          <MyCard title="Hello" />
+          <MyCard title="Hello" />
+        </div>
         <div id="image1" />
       </div>
     </div>

@@ -1,0 +1,13 @@
+.mycard {
+  border: solid;
+  margin: 2rem;
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+img {
+  height: 200px;
+  border: solid;
+  width: 200px;
+  margin: 20px;
+}
