@@ -11,11 +11,18 @@ function About() {
       <div className="aboutBox aboutFlex">
         <div id="image" />
         <div className="aboutBoxText">
-          With a background in writing and rhetoric, I bring leadership via
-          strong communication skills to my web development team. I take a
+          I am a fullstack software engineer in the Washington, D.C. area. With
+          a background in writing and rhetoric, I bring leadership via strong
+          <em>communication</em> skills to my web development team. I take a
           creative holistic approach to development, keeping the overall goal of
-          exceptional user experience at the forefront of each project.
-          <p>Please email me at colleen3117@gmail.com</p>
+          exceptional user experience at the forefront of each project. I
+          started out building web applications with the <em>MERN</em> stack.
+          Recently, however, I have been using the <em>Django REST</em>{" "}
+          framework and <em>PostgreSQL</em> to build backend API's, while still
+          sticking to <em>React</em> for the frontend.
+          <p>
+            Please email me at <em>colleen3117@gmail.com.</em>
+          </p>
         </div>
       </div>
     </div>

@@ -4,16 +4,24 @@
 
 .aboutBox {
   /* background: rgba(133, 133, 133, 0.5); */
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   border-radius: 70px;
   min-height: 60vh;
   color: #636261;
-  padding: 0.5em;
-  font-size: 25px;
+  padding: 0.5em 0;
+  font-size: 23px;
   line-height: 2.5rem;
   text-align: left;
   font-weight: bold;
+}
+em {
+  font-weight: bold;
+  font-style: normal;
+  font-size: larger;
+  color: #86e4eb;
+  -webkit-text-stroke-width: 0.05px;
+  -webkit-text-stroke-color: gray;
 }
 
 #image {
@@ -34,4 +42,8 @@
 .aboutBoxText {
   margin: 0;
   padding: 0 2rem;
+}
+.aboutBoxText p {
+  margin-top: 1rem;
+  font-size: larger;
 }
