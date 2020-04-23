@@ -3,22 +3,35 @@
 }
 
 .aboutBox {
-  background: rgba(236, 236, 236, 0.5);
+  /* background: rgba(133, 133, 133, 0.5); */
   width: 80%;
-  margin: 2rem auto;
+  margin: 0 auto;
   border-radius: 70px;
   min-height: 60vh;
-  color: #606060;
-  padding: 2em;
-  font-size: 30px;
-  line-height: 2.1em;
+  color: #636261;
+  padding: 0.5em;
+  font-size: 25px;
+  line-height: 2.5rem;
+  text-align: left;
+  font-weight: bold;
 }
 
 #image {
-  background: url("./IMG_1768.PNG");
+  background: url("./GA13Feb_FullRes-7.jpg");
   background-position: center;
   background-size: cover;
-  width: auto;
-  height: 300px;
-  border: solid;
+  width: 140%;
+  height: 200px;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+.aboutFlex {
+  display: flex;
+  padding: 5rem 6rem;
+}
+
+.aboutBoxText {
+  margin: 0;
+  padding: 0 2rem;
 }

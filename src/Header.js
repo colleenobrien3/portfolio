@@ -14,20 +14,28 @@ function Header() {
         rel="stylesheet"
       ></link>
       <div className="landing">
-        <p id="name">Colleen O'Brien</p>
+        <div id="name">Colleen O'Brien</div>
         <p id="job">Software Engineer</p>
         <div id="links">
           <div className="flex">
             <div id="one" className="box">
-              <a href="https://github.com/colleenobrien3">GitHub</a>
+              <a target="_blank" href="https://github.com/colleenobrien3">
+                GitHub
+              </a>
             </div>
             <div id="two" className="box">
-              <a href="https://www.linkedin.com/in/colleen-o-brien3/">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/colleen-o-brien3/"
+              >
                 LinkedIn
               </a>
             </div>
             <div id="three" className="box">
-              <a href="https://drive.google.com/file/d/1SjchCGb4_4HSUwe8T6deXBTiH-ozrLbi/view?usp=sharing">
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1SjchCGb4_4HSUwe8T6deXBTiH-ozrLbi/view?usp=sharing"
+              >
                 Resume
               </a>
             </div>

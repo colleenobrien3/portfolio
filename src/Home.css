@@ -1,3 +1,9 @@
 .home {
   min-height: 70vh;
 }
+
+.welcomeWords {
+  line-height: 2.6rem;
+  text-align: left;
+  margin: 0 auto;
+}

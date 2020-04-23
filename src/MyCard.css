@@ -1,13 +1,64 @@
 .mycard {
-  border: solid;
   margin: 2rem;
-  /* display: flex; */
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  border-bottom: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.cardStuffContainer {
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
 }
 
 img {
-  height: 200px;
-  border: solid;
-  width: 200px;
+  height: 0;
+  width: 0;
   margin: 20px;
+}
+
+hr {
+  width: 2px;
+}
+
+.descriptionBox {
+  padding: 0 2rem;
+  width: 50%;
+  line-height: 1.8rem;
+}
+
+.descriptionBox a {
+  font-size: 20px;
+  line-height: 1.3rem;
+  color: #505050 !important;
+  padding: 0.07rem;
+}
+
+.buttons {
+  padding: 0.5rem;
+  background-color: #ccf3f6;
+  margin: 0.3rem 0;
+  width: 5.7rem;
+}
+
+.descriptionTitle {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 30px;
+}
+.descriptionContent {
+  font-size: 20px;
+  line-height: 1.5rem;
+}
+.technologies {
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #ccf3f6;
 }
