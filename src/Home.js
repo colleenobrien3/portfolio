@@ -7,7 +7,9 @@ function Home() {
   return (
     <div className="aboutPage">
       <div className="aboutBox">
-        <div className="welcomeWords"></div>
+        <div className="welcomeWords">
+          Software Engineer in Washington, D.C.
+        </div>
       </div>
     </div>
   );
