@@ -14,14 +14,17 @@ class App extends Component {
     return (
       <div>
         <div className="cloud">
-          <Header />
           <BrowserRouter>
+            <div className="homeLink">
+              <Link to="/">Colleen O'Brien</Link>
+            </div>
             <div className="link">
               <Link to="/about">About</Link>
             </div>
             <div className="link">
               <Link to="/portfolio">Portfolio</Link>
             </div>
+            <Header />
             <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
             <Route path="/portfolio" exact component={Portfolio} />

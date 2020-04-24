@@ -10,11 +10,11 @@ function Header() {
   return (
     <div className="first">
       <link
-        href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap"
         rel="stylesheet"
-      ></link>
+      />
       <div className="landing">
-        <div id="name">Colleen O'Brien</div>
+        {/* <div id="name">Colleen O'Brien</div> */}
         <p id="job">Software Engineer</p>
         <div id="links">
           <div className="flex">

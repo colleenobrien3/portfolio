@@ -1,5 +1,5 @@
 .aboutPage {
-  min-height: 70vh;
+  min-height: 50vh;
 }
 
 .aboutBox {
@@ -7,10 +7,10 @@
   width: 90%;
   margin: 0 auto;
   border-radius: 70px;
-  min-height: 60vh;
+  min-height: 40vh;
   color: #636261;
-  padding: 0.5em 0;
-  font-size: 23px;
+  padding: 0;
+  font-size: 20px;
   line-height: 2.5rem;
   text-align: left;
   font-weight: bold;
@@ -28,15 +28,16 @@ em {
   background: url("./GA13Feb_FullRes-7.jpg");
   background-position: center;
   background-size: cover;
-  width: 190%;
-  height: 240px;
+  width: 300%;
+  height: 4em;
+  padding-top: 30%;
   border-radius: 20px;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .aboutFlex {
   display: flex;
-  padding: 5rem 6rem;
+  padding: 2rem 2rem;
 }
 
 .aboutBoxText {
@@ -46,4 +47,19 @@ em {
 .aboutBoxText p {
   margin-top: 1rem;
   font-size: larger;
+}
+@media screen and (max-width: 375px) {
+  .aboutFlex {
+    flex-direction: column;
+    padding: 0;
+  }
+  #image {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 0.7em;
+    margin-top: 0.2em;
+  }
+  .aboutBoxText p {
+    margin-top: 1.3em;
+  }
 }

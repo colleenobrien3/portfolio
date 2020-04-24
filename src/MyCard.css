@@ -62,3 +62,28 @@ hr {
   padding: 0.3rem;
   background-color: #ccf3f6;
 }
+
+@media screen and (max-width: 375px) {
+  .cardStuffContainer {
+    height: 150px;
+  }
+  .mycard {
+    margin: 2em auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .descriptionBox {
+    margin-top: 1em;
+  }
+  .descriptionTitle {
+    font-size: 30px;
+    text-align: center;
+  }
+  .descriptionBox {
+    padding: 0;
+  }
+  .technologies {
+    line-height: 1.2rem;
+    padding: 0.5rem 0;
+  }
+}

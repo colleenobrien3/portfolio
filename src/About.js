@@ -12,7 +12,7 @@ function About() {
         <div id="image" />
         <div className="aboutBoxText">
           I am a fullstack software engineer in the Washington, D.C. area. With
-          a background in writing and rhetoric, I bring leadership via strong
+          a background in writing and rhetoric, I bring leadership via strong{" "}
           <em>communication</em> skills to my web development team. I take a
           creative holistic approach to development, keeping the overall goal of
           exceptional user experience at the forefront of each project. I

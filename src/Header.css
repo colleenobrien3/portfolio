@@ -29,30 +29,29 @@
 .landing {
   margin: 0 auto;
   text-align: center;
-  padding: 7%;
+  padding: 0;
   padding-bottom: 0;
   color: #636261;
   line-height: 60px;
 }
 
 #links {
-  margin-top: 1%;
+  margin-top: 0;
   font-size: 30px;
 }
 .flex {
   display: flex;
   justify-content: space-around;
-  font-size: 28px;
+  font-size: 23px;
   font-weight: bold;
-  /* padding: 0.6rem 1rem; */
-  width: 40%;
+  width: 320px;
   margin: 0 auto;
 }
 
 .flex2 {
   display: flex;
   justify-content: space-around;
-  padding: 0 35%;
+  padding: 0;
 }
 .box {
   border-radius: 10px;
@@ -86,9 +85,8 @@
   /* background-image: url("./cloudagain.jpg"); */
   background-position: center;
   background-size: cover;
-  min-height: 30vh;
 }
 
 p {
-  font-family: "Crimson Text", serif;
+  font-family: "Alegreya Sans", sans-serif;
 }
