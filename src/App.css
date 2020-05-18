@@ -35,6 +35,10 @@ a {
   cursor: pointer;
 }
 
+.clicked {
+  background: rgb(196, 240, 245);
+}
+
 .link:hover {
   background: rgb(196, 240, 245);
   /* background-color: white; */

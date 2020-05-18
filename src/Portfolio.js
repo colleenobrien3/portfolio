@@ -14,6 +14,7 @@ import recipe from "./rolodex.png";
 import brew from "./brewerde.png";
 import wut from "./wut.png";
 import mac from "./mac.png";
+import hilight from "./hilight.png";
 
 function Portfolio() {
   return (
@@ -22,6 +23,14 @@ function Portfolio() {
         <p></p>
         <p></p>
         <div className="cardContainer">
+          <MyCard
+            img={hilight}
+            title="Cruelty-Free Cosmetics Search"
+            technologies="Django REST Framework, PostgreSQL, React"
+            description="I created a website where consumers can check whether a brand is cruelty-free before purchasing a product. I implemented an AI/Machine Learning tool to the search box, which provides suggestions based on previous searches."
+            link1="https://www.hilight.netlify.app/"
+            link2="https://www.arcane-brook-10088.herokuapp.com"
+          />
           <MyCard
             img={i}
             title="CoTripper"
