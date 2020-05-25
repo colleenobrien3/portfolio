@@ -9,7 +9,7 @@ import "./About.css";
 import Card from "./Card";
 import CardExample from "./Card";
 import MyCard from "./MyCard";
-import i from "./cotripperimage.png";
+import i from "./cotrip_erd.png";
 import recipe from "./rolodex.png";
 import brew from "./brewerde.png";
 import wut from "./wut.png";
@@ -36,7 +36,7 @@ function Portfolio() {
             img={i}
             title="CoTripper"
             technologies="Django REST Framework, PostgreSQL, React"
-            description="For the company CoTripper's web platform, I led the backend efforts of planning the models with an ERD and setting up the API and database with the Django REST framework and PostgreSQL. I also worked on the development of the React Component Library"
+            description="For the company CoTripper's web platform, I led the backend efforts of planning the models with an ERD and setting up the API and database with the Django REST framework and PostgreSQL. I also worked on the development of the React Component Library."
             link1="https://www.cotripper.co/"
             link2="https://github.com/CotripperPlatform/CoTrip"
           />
