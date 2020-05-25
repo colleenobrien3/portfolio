@@ -15,6 +15,7 @@ import brew from "./brewerde.png";
 import wut from "./wut.png";
 import mac from "./mac.png";
 import hilight from "./hilight.png";
+import dataVis from "./dataVis.png";
 
 function Portfolio() {
   return (
@@ -46,6 +47,14 @@ function Portfolio() {
             description="My team created an application that allows users to create and view recipes. The deployed backend database holds tables for users and recipes. We used PassPort with JSON Web Tokens for user authentication."
             link1="https://recipe-rolodex.netlify.com/"
             link2="https://recipe-roledex.herokuapp.com/"
+          />
+          <MyCard
+            img={dataVis}
+            title="COVID-19 Data Visualization"
+            technologies="Django, Flask, SQL, MatPlotLib, Jupyter Notebook, Data Scraping"
+            description="Before published data sets of COVID-19 statistics were common, I created a database and API pulling data from a web source. I created a data visualization in the Jupyter Notebook using MatPlotLib."
+            link1="https://github.com/colleenobrien3/COVID-19-Data-Visualization"
+            link2="https://github.com/colleenobrien3/COVID-19-Data-Visualization"
           />
           <MyCard
             img={brew}
